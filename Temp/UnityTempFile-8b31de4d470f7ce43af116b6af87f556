@@ -1,0 +1,396 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:Assets/Watson/Plugins/websocket-sharp.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_0
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:HAS_NEON_SKINNIG
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:PLATFORM_IOS
+-define:UNITY_IOS
+-define:PLATFORM_IPHONE
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+-define:UNITY_HAS_GOOGLEVR
+Assets/DeployStageOnce.cs
+Assets/GoogleService.cs
+Assets/PictureBehavior.cs
+Assets/PictureFactory.cs
+Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs
+Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleAlchemyDataNews.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleAlchemyLanguage.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleAssistant.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleCallback.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleConversation.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleDiscovery.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleDocumentConversion.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleGetToken.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleLanguageTranslator.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleNaturalLanguageClassifier.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleNaturalLanguageUnderstanding.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExamplePersonalityInsights.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleRetrieveAndRank.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleSpeechToText.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleStreaming.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleStreamingSplitSamples.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleTextToSpeech.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleToneAnalyzer.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleTradeoffAnalytics.cs
+Assets/Watson/Examples/ServiceExamples/Scripts/ExampleVisualRecognition.cs
+Assets/Watson/Scripts/Connection/RESTConnector.cs
+Assets/Watson/Scripts/Connection/WSConnector.cs
+Assets/Watson/Scripts/Debug/DebugReactor.cs
+Assets/Watson/Scripts/Logging/FileReactor.cs
+Assets/Watson/Scripts/Logging/ILogReactor.cs
+Assets/Watson/Scripts/Logging/Logger.cs
+Assets/Watson/Scripts/Services/AlchemyAPI/v1/AlchemyAPI.cs
+Assets/Watson/Scripts/Services/AlchemyAPI/v1/DataModels.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Assistant.cs
+Assets/Watson/Scripts/Services/Assistant/v1/IAssistant.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CaptureGroup.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Context.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Counterexample.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CounterexampleCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateCounterexample.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateDialogNode.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateEntity.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateExample.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateIntent.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateSynonym.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateValue.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/CreateWorkspace.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/DialogNode.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/DialogNodeAction.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/DialogNodeCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/DialogNodeNextStep.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/DialogNodeVisitedDetails.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Entity.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/EntityCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/EntityExport.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Example.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/ExampleCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/InputData.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Intent.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/IntentCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/IntentExport.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/LogCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/LogExport.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/LogMessage.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/LogPagination.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/MessageInput.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/MessageRequest.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/MessageResponse.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/OutputData.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Pagination.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/RuntimeEntity.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/RuntimeIntent.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Synonym.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/SynonymCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/SystemResponse.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateCounterexample.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateDialogNode.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateEntity.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateExample.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateIntent.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateSynonym.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateValue.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/UpdateWorkspace.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Value.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/ValueCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/ValueExport.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/Workspace.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/WorkspaceCollection.cs
+Assets/Watson/Scripts/Services/Assistant/v1/Model/WorkspaceExport.cs
+Assets/Watson/Scripts/Services/Conversation/v1/Conversation.cs
+Assets/Watson/Scripts/Services/Conversation/v1/DataModels.cs
+Assets/Watson/Scripts/Services/Discovery/v1/DataModels.cs
+Assets/Watson/Scripts/Services/Discovery/v1/Discovery.cs
+Assets/Watson/Scripts/Services/DocumentConversion/v1/DataModels.cs
+Assets/Watson/Scripts/Services/DocumentConversion/v1/DocumentConversion.cs
+Assets/Watson/Scripts/Services/IWatsonService.cs
+Assets/Watson/Scripts/Services/LanguageTranslator/v2/DataModels.cs
+Assets/Watson/Scripts/Services/LanguageTranslator/v2/LanguageTranslator.cs
+Assets/Watson/Scripts/Services/NaturalLanguageClassifier/v2/DataModels.cs
+Assets/Watson/Scripts/Services/NaturalLanguageClassifier/v2/NaturalLanguageClassifier.cs
+Assets/Watson/Scripts/Services/NaturalLanguageUnderstanding/v1/DataModels.cs
+Assets/Watson/Scripts/Services/NaturalLanguageUnderstanding/v1/NaturalLanguageUnderstanding.cs
+Assets/Watson/Scripts/Services/PersonalityInsights/v3/DataModels.cs
+Assets/Watson/Scripts/Services/PersonalityInsights/v3/PersonalityInsights.cs
+Assets/Watson/Scripts/Services/RetrieveAndRank/v1/DataModels.cs
+Assets/Watson/Scripts/Services/RetrieveAndRank/v1/RetrieveAndRank.cs
+Assets/Watson/Scripts/Services/SpeechToText/v1/DataModels.cs
+Assets/Watson/Scripts/Services/SpeechToText/v1/SpeechToText.cs
+Assets/Watson/Scripts/Services/TextToSpeech/v1/DataModels.cs
+Assets/Watson/Scripts/Services/TextToSpeech/v1/TextToSpeech.cs
+Assets/Watson/Scripts/Services/ToneAnalyzer/v3/DataModels.cs
+Assets/Watson/Scripts/Services/ToneAnalyzer/v3/ToneAnalyzer.cs
+Assets/Watson/Scripts/Services/TradeoffAnalytics/v1/DataModels.cs
+Assets/Watson/Scripts/Services/TradeoffAnalytics/v1/TradeoffAnalytics.cs
+Assets/Watson/Scripts/Services/VisualRecognition/v3/DataModels.cs
+Assets/Watson/Scripts/Services/VisualRecognition/v3/VisualRecognition.cs
+Assets/Watson/Scripts/UnitTests/TestAlchemyLanguage.cs
+Assets/Watson/Scripts/UnitTests/TestAssistant.cs
+Assets/Watson/Scripts/UnitTests/TestConversation.cs
+Assets/Watson/Scripts/UnitTests/TestDiscovery.cs
+Assets/Watson/Scripts/UnitTests/TestDocumentConversion.cs
+Assets/Watson/Scripts/UnitTests/TestEventManager.cs
+Assets/Watson/Scripts/UnitTests/TestLanguageTranslator.cs
+Assets/Watson/Scripts/UnitTests/TestNaturalLanguageClassifier.cs
+Assets/Watson/Scripts/UnitTests/TestNaturalLanguageUnderstanding.cs
+Assets/Watson/Scripts/UnitTests/TestPersonalityInsights.cs
+Assets/Watson/Scripts/UnitTests/TestRetrieveAndRank.cs
+Assets/Watson/Scripts/UnitTests/TestRunnable.cs
+Assets/Watson/Scripts/UnitTests/TestSpeechToText.cs
+Assets/Watson/Scripts/UnitTests/TestTextToSpeech.cs
+Assets/Watson/Scripts/UnitTests/TestToneAnalyzer.cs
+Assets/Watson/Scripts/UnitTests/TestTradeoffAnalytics.cs
+Assets/Watson/Scripts/UnitTests/TestVisualRecognition.cs
+Assets/Watson/Scripts/UnitTests/UnitTest.cs
+Assets/Watson/Scripts/UnitTests/UnitTestManager.cs
+Assets/Watson/Scripts/Utilities/AudioClipUtil.cs
+Assets/Watson/Scripts/Utilities/Constants.cs
+Assets/Watson/Scripts/Utilities/Credentials.cs
+Assets/Watson/Scripts/Utilities/EventManager.cs
+Assets/Watson/Scripts/Utilities/FrameRateCounter.cs
+Assets/Watson/Scripts/Utilities/KeyEventManager.cs
+Assets/Watson/Scripts/Utilities/NestedPrefabs.cs
+Assets/Watson/Scripts/Utilities/Runnable.cs
+Assets/Watson/Scripts/Utilities/SerializedDelegate.cs
+Assets/Watson/Scripts/Utilities/Singleton.cs
+Assets/Watson/Scripts/Utilities/TimedDestroy.cs
+Assets/Watson/Scripts/Utilities/UnityObjectUtil.cs
+Assets/Watson/Scripts/Utilities/Utility.cs
+Assets/Watson/Scripts/Utilities/WatsonException.cs
+Assets/Watson/Scripts/Utilities/WaveFile.cs
+Assets/Watson/Scripts/Widgets/DataTypes.cs
+Assets/Watson/Scripts/Widgets/Widget.cs
+Assets/Watson/ThirdParty/FullSerializer/Aot/fsAotCompilationManager.cs
+Assets/Watson/ThirdParty/FullSerializer/Aot/fsAotConfiguration.cs
+Assets/Watson/ThirdParty/FullSerializer/Aot/fsAotVersionInfo.cs
+Assets/Watson/ThirdParty/FullSerializer/Aot/fsIAotConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsArrayConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsDateConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsDictionaryConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsEnumConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsForwardConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsGuidConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsIEnumerableConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsKeyValuePairConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsNullableConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsPrimitiveConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsReflectedConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsTypeConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/fsWeakReferenceConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/AnimationCurve_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/Bounds_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/Gradient_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/GUIStyle_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/GUIStyleState_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/Keyframe_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/LayerMask_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/Rect_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/RectOffset_DirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/Converters/Unity/UnityEvent_Converter.cs
+Assets/Watson/ThirdParty/FullSerializer/fsBaseConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/fsConfig.cs
+Assets/Watson/ThirdParty/FullSerializer/fsContext.cs
+Assets/Watson/ThirdParty/FullSerializer/fsConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/fsConverterRegistrar.cs
+Assets/Watson/ThirdParty/FullSerializer/fsData.cs
+Assets/Watson/ThirdParty/FullSerializer/fsDirectConverter.cs
+Assets/Watson/ThirdParty/FullSerializer/fsExceptions.cs
+Assets/Watson/ThirdParty/FullSerializer/fsIgnoreAttribute.cs
+Assets/Watson/ThirdParty/FullSerializer/fsISerializationCallbacks.cs
+Assets/Watson/ThirdParty/FullSerializer/fsJsonParser.cs
+Assets/Watson/ThirdParty/FullSerializer/fsJsonPrinter.cs
+Assets/Watson/ThirdParty/FullSerializer/fsMemberSerialization.cs
+Assets/Watson/ThirdParty/FullSerializer/fsObjectAttribute.cs
+Assets/Watson/ThirdParty/FullSerializer/fsObjectProcessor.cs
+Assets/Watson/ThirdParty/FullSerializer/fsPropertyAttribute.cs
+Assets/Watson/ThirdParty/FullSerializer/fsResult.cs
+Assets/Watson/ThirdParty/FullSerializer/fsSerializer.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsCyclicReferenceManager.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsOption.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsPortableReflection.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsTypeExtensions.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsVersionedType.cs
+Assets/Watson/ThirdParty/FullSerializer/Internal/fsVersionManager.cs
+Assets/Watson/ThirdParty/FullSerializer/Reflection/fsMetaProperty.cs
+Assets/Watson/ThirdParty/FullSerializer/Reflection/fsMetaType.cs
+Assets/Watson/ThirdParty/FullSerializer/Reflection/fsReflectionUtility.cs
+Assets/Watson/ThirdParty/FullSerializer/Reflection/fsTypeCache.cs
+Assets/Watson/ThirdParty/MiniJSON/MiniJSON.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
