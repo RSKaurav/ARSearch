@@ -1,0 +1,2 @@
+# ARSearch
+ARS (Augmented Reality Search) is an idea of image search and displaying searched images in augmented reality. Suppose I am planning to visit Kerala and I want to know best visiting places in kerala then I will just make a voice command and IBM watson API will convert voice command into text and send it to Google Custom Search API then GCS API will return Image URL in the form of jason data then using Vuforia which will provide Augmounted Reality environment. We will display all the related image in Augmented Reality.
